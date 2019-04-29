@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="c-header.css">
+	<link rel="stylesheet" type="text/css" href="component-dropdown.css">
 </head>
 <body>
 	<div class="main-content-wrapper">
@@ -18,11 +19,51 @@
 					</a>
 				</div>
 				<div class="c-header-left">
-					<div class="drop-down-container">
+					<div class="drop-down-container dropdown">
 						<a href="#">
 							<i class="fas fa-bars"></i>
 							<span class="categories">Categories</span>
 						</a>
+						<ul class="dropdown-menu left-menu">
+							<li>
+								<ul class="lv1-ul">
+									<li class="menu-link">
+										<a href="#">
+											<i class="fas fa-code"></i>
+											<span>Development</span>
+											<i class="fas fa-chevron-right"></i>
+										</a>
+										<div class="lv2-div">
+											<ul class="lv2-ul">
+												<div class="menu-link">
+													<a href="#">
+														<span>All Development</span>
+													</a>
+												</div>
+												<li class="menu-link">
+													<a href="">
+														<span>Web Development</span>
+														<i class="fas fa-chevron-right"></i>
+													</a>
+													<div class="lv3-div">
+														<ul class="lv3-ul">
+															<div>
+																<span>Popular Topics</span>
+															</div>
+															<li class="menu-link">
+																<a href="">
+																	<span>All Web Development</span>
+																</a>
+															</li>
+														</ul>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
 					</div>
 					<div class="search-wrap">
 						<div class="search-bar">
@@ -37,20 +78,38 @@
 				</div>
 				<div class="c-header-right">
 					<div class="component-header-right-dropdown-container">
-						<div class="header-right-button-dropdown">
+						<div class="header-right-button-dropdown dropdown">
 							<a class="a-link" href="#">Udemy for Business</a>
+							<ul class="dropdown-menu right-menu">
+								<li class="dropdown-menu-list">
+									<div class="text">Get your team access to Udemy’s top 3,000 courses anytime, anywhere.</div>
+									<a href="#">Try Udemy for Business</a>
+								</li>
+							</ul>
 						</div>
 					</div>
 					<div class="component-header-right-dropdown-container">
-						<div class="header-right-button-dropdown">
+						<div class="header-right-button-dropdown dropdown">
 							<a class="a-link" href="#">Teach on Udemy</a>
+							<ul class="dropdown-menu right-menu">
+								<li class="dropdown-menu-list">
+									<div class="text">Turn what you know into an opportunity and reach millions around the world.</div>
+									<a href="#">Learn more</a>
+								</li>
+							</ul>
 						</div>
 					</div>
 					<div class="shopping-cart">
-						<div class="header-right-button-dropdown">
+						<div class="header-right-button-dropdown dropdown">
 							<a class="a-link" href="#">
 								<i class="fas fa-shopping-cart"></i>
 							</a>
+							<ul class="dropdown-menu right-menu">
+								<li class="dropdown-menu-list">
+									<div class="text">Your cart is empty.</div>
+									<a href="#">Keep shopping</a>
+								</li>
+							</ul>
 						</div>
 					</div>
 					<div class="component-button-login-signup login">
