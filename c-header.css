@@ -1,0 +1,168 @@
+.c-header .c-header-inner {
+	display: flex;
+	padding: 0 20px;
+	height: 65px;
+	font-size: 13px;
+}
+
+.c-header-logo-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.c-header-logo-container .logo-header {
+	margin-right: 20px;
+}
+
+.c-header-left {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.c-header-left .drop-down-container {
+	padding: 0 20px;
+}
+
+.c-header-left .search-wrap .input-group {
+	display: flex;
+	flex-direction: row;
+}
+
+.search-wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 44px;
+	width: 500px;
+	margin: 0 25px;
+}
+
+.search-wrap .search-bar {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.search-bar .input-group {
+	flex-grow: 1;
+	background-color: #F2F3F5;
+	border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+input {
+	border: none;
+	padding: 10px 12px;
+	background-color: transparent;
+	width: 456px;
+	outline: none;
+	
+}
+
+.input-group .button-search {
+	display: flex;
+	direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 44px;
+	color: #EC5252;
+}
+
+.input-group:focus-within {
+	background-color: transparent;
+  border-color: #DEDFE0;
+}
+
+.input-group .button-search:hover {
+	background-color: #EC5252;
+  color: #FFF;
+}
+
+a {
+	text-decoration: none;
+	color: #29303B;
+}
+
+.c-header-right {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+/*.component-header-right-dropdown-container {
+	height: 100%;
+}*/
+
+.header-right-button-dropdown {
+	margin: 0 2px;
+  height: 45px;
+  padding: 12px 15px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.header-right-button-dropdown:hover {
+	background: rgba(20,23,28,0.05);
+  border-color: rgba(20,23,28,0.05);
+}
+
+.shopping-cart {
+	margin-right: 10px;
+	font-size: 15px;
+}
+
+.shopping-cart .header-right-button-dropdown {
+	width: 45px;
+}
+
+.shopping-cart .header-right-button-dropdown:hover {
+  border-radius: 50%;
+}
+
+.component-button-login-signup {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 44px;
+	width: 69px;
+	margin: 0 2px;
+  padding: 10px 0;
+  font-weight: 600;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.login {
+	color: #686F7A;
+	color: #686F7A;
+  border: 1px solid #686F7A;
+}
+
+.signup {
+	background-color: #EC5252;
+  border: 1px solid transparent;
+  color: #FFF;
+}
+
+.login:hover {
+	color: #29303B;
+ 	background-color: #FFF;
+  border-color: #29303B;
+}
+
+.signup:hover {
+	color: #FFF;
+ 	background-color: #992337;
+  border-color: transparent;
+}
