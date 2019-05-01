@@ -1,0 +1,93 @@
+.main-content .notice-streamer {
+	background-image: url(images/notice-streamer.jpg);
+	background-position: center;
+	height: 500px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.notice-streamer .sidebar {
+	width: 1174px;
+	padding: 0 15px 0 15px;
+	margin: 30px auto;
+}
+
+.sidebar .notice-content {
+	width: 460px;
+	color: #FFF;
+}
+
+.notice-content .notice-headline {
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.notice-content .notice-context {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.notice-content .search-bar .input-group {
+	display: flex;
+	height: 50px;
+	background-color: #FFF;
+}
+
+.notice-content .search-bar .button-search {
+	height: 100%;
+	width: 54px;
+	font-size: 15px;
+}
+
+.new-channel .how-udemy-work-container {
+	background: linear-gradient(-45deg, #EC5252 0, #6E1A52 100%);
+}
+
+.new-channel .how-udemy-work-content {
+	width: 1174px;
+	margin: 30px auto;
+	margin-bottom: 24px;
+	margin-top: 0px;
+	padding-left: 15px;
+  padding-right: 15px;
+	display: flex;
+	color: #FFF;
+	height: 85px;
+}
+
+.new-channel .how-udemy-work-container .item {
+	display: flex;
+	padding: 20px 25px;
+	width: 33%;
+}
+
+.new-channel .how-udemy-work-container .item i {
+	font-size: 47px;
+	margin-right: 10px;
+}
+
+.how-udemy-work-content .item .text div {
+	font-size: 17px;
+	font-weight: bold;
+
+}
+
+.how-udemy-work-content .item .subtext {
+	font-size: 15px;
+}
+
+.new-channel .how-udemy-work-container .item-id1 {
+	padding-left: 11px;
+}
+
+.new-channel .how-udemy-work-container .item-id2 {
+	display: flex;
+	justify-content: center;
+}
+
+.new-channel .how-udemy-work-container .item-id3 {
+	display: flex;
+	justify-content: flex-end;
+}
