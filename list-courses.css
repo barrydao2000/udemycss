@@ -153,7 +153,7 @@
 	color: #00576B;
 }
 
-.course-mask:hover .course-header img{
+.stick-item-container:hover .course-header img{
 	background-color: #29303B;
 	opacity: 0.5;
 }

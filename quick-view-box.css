@@ -1,0 +1,125 @@
+.quick-view-box {
+	position: absolute;
+	left: 32%;
+	top: -40%;
+	display: none;
+}
+
+.quick-view {
+  border-bottom-left-radius: 2px;
+  border-top: 1px solid #E8E9EB;
+  box-shadow: 0 4px 16px rgba(20,23,28,0.25);
+  color: #505763;
+  font-size: 15px;
+  background-color: #FFF;
+  width: 333px;
+  height: 520px;
+  padding: 18px 14px;
+  display: flex;
+  padding-right: 20px;
+}
+
+.quick-view .arrow {
+	position: absolute;
+	left: -3%;
+	top: 50%;
+	width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  border-right:10px solid #FFF;
+}
+
+.popover-content {
+	display: flex;
+	flex-direction: column;
+	margin: 8px;
+}
+
+.popover-content .header-content .time {
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+.header-content .title {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 2px;
+}
+
+.body-content .directory {
+	display: flex;
+	font-size: 11px;
+	margin-bottom: 8px;
+}
+
+.directory .badge {
+	margin-right: 8px;
+	height: 16px;
+	width: 68px;
+	font-size: 9px;
+	font-weight: 700;
+	background: #F4C150;
+	color: #29303B;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.directory a {
+	color: #007791;
+}
+
+.body-content .infor {
+	display: flex;
+	justify-content: space-between;
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+
+.body-content .infor i {
+	margin-left: 6px;
+	margin-right: 2px;
+}
+
+.popover-content .bottom-content {
+	margin-bottom: 20px;
+}
+
+.bottom-content .text {
+	margin-bottom: 15px;
+}
+
+.bottom-content li {
+	list-style: circle inside none;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.some-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.some-button .add-to-cart {
+	color: #FFF;
+	font-weight: 600;
+	height: 55px;
+	width: 234px;
+	font-size: 15px;
+	background-color: #EC5252;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.some-button i {
+	margin-left: 28px;
+	font-size: 30px;
+	color: #EC5252;
+}
+
+.cur-item:hover ~ .quick-view-box {
+	display: flex;
+}
