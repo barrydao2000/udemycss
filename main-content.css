@@ -91,3 +91,69 @@
 	display: flex;
 	justify-content: flex-end;
 }
+
+.new-channel .courses-wrapper {
+	width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+.courses-wrapper .courses-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.courses-container .skills-hub {
+	display: flex;
+	flex-direction: row;
+}
+
+.skills-hub .description-container {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: 15px 15px 28px 0;
+	padding: 0 32px;
+	background: #F7F8FA;
+	width: 447px;
+	color: #29303B;
+}
+
+.description-container .description-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.description-content .description-text {
+	font-size: 19px;
+	font-weight: 600;
+}
+
+.description-content .description-subtext {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.desktop-content {
+	display: flex;
+	flex-direction: column;
+	width: 682px;
+}
+
+.desktop-content .desktop-list {
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid #DEDFE0;
+	margin-bottom: 16px;
+}
+
+.desktop-list .button {
+	color: #14171C;
+	border-bottom: 6px solid transparent;
+	padding: 11px 12px;
+}
+.desktop-list .cur {
+	border-color: #007791;
+}
