@@ -8,15 +8,14 @@
 
 .stick-list {
 	display: flex;
-	width: 690px;
 }
 
 .stick-list .stick-item {
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	width: 230px;
-	height: 300px;
+	width: 228px;
+	height: 290px;
 }
 
 .stick-item .stick-item-wrapper {
@@ -36,8 +35,12 @@
 .course-header {
 	border-bottom: 1px solid #e8e8e8;
 	background-color: #29303B;
-	width: 215px;
+	width: 212px;
 	height: 123px;
+}
+
+.course-header img {
+	width: 212px;
 }
 
 .course-mask .course-body {
@@ -138,7 +141,7 @@
 	position: absolute;
 	color: #007791;
 	font-size: 24px;
-	top: 39%;
+	top: 32%;
 	right: -10px;
 	width: 47px;
 	height: 47px;
@@ -156,4 +159,15 @@
 .stick-item-container:hover .course-header img{
 	background-color: #29303B;
 	opacity: 0.5;
+}
+
+.courses-discovery .courses-discovery-header {
+	margin-bottom: 10px;
+	font-size: 19px;
+	font-weight: 400;
+	color: #505763;
+}
+
+.courses-container .courses-discovery {
+	margin-bottom: 20px;
 }
