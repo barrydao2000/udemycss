@@ -8,12 +8,12 @@
 
 .stick-list {
 	display: flex;
+	position: relative;
 }
 
 .stick-list .stick-item {
 	display: flex;
 	flex-direction: column;
-	position: relative;
 	width: 228px;
 	height: 290px;
 }
@@ -26,6 +26,7 @@
 	border-radius: 0.5%;
 	box-shadow: 0 0 1px 1px rgba(20,23,28,0.1),0 2px 1px 0 rgba(20,23,28,0.1);
 	opacity: 1;
+	background: #FFF;
 }
 
 .stick-item .stick-item-container:hover {
@@ -134,7 +135,7 @@
 	text-decoration: line-through;
 }
 
-.discovery-container .next-button {
+.next-button {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -151,7 +152,7 @@
 	background-color: #FFF;
 }
 
-.discovery-container .next-button:hover {
+.next-button:hover {
 	box-shadow: 0 2px 8px 2px rgba(20,23,28,0.15);
 	color: #00576B;
 }
@@ -170,4 +171,9 @@
 
 .courses-container .courses-discovery {
 	margin-bottom: 20px;
+}
+
+.stick-item-container .stick-item-content {
+	padding: 32px;
+	height: 266px;
 }

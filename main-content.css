@@ -181,11 +181,12 @@
 	flex-direction: column;
 }
 
-.banner-content .top, .banner-content .mid, .banner-content .bot {
-	height: 33%;
+.banner-content .top, .banner-content .bot {
+	height: 20%;
 }
 
 .banner-content .mid {
+	height: 40%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -202,7 +203,7 @@
 	margin-bottom: 24px;
 }
 
-.button-banner {
+.button-red {
 	color: #FFF;
 	background-color: #EC5252;
 	border: 1px solid transparent;
@@ -210,10 +211,10 @@
 	font-size: 15px;
 	font-weight: 600;
 	border-radius: 2%;
-	height: 60px;
+	height: 45px;
 }
 
-.button-hover:hover {
+.button-red:hover {
 	color: #FFF;
 	background-color: #992337;
 	border-color: transparent;
@@ -232,4 +233,135 @@
 	font-size: 24px;
 	font-weight: 600;
 	padding-left: 15px;
+}
+
+.container-grey {
+	background: #F7F8FA;
+}
+
+.container-grey .testimonial-wrapper {
+	padding: 32px 16px;
+	width: 1170px;
+	margin: auto;
+	position: relative;
+}
+
+.testimonial-container {
+	width: 100%;
+	overflow: hidden;
+}
+
+.testimonial-wrapper .testimonial-header {
+	margin-bottom: 10px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.carousel-container {
+	width: 1170px;
+}
+
+.carousel-container .stick-list .stick-item {
+	width: 380px;
+}
+
+.stick-item-container .stick-item-content .infor {
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.stick-item-content .infor div {
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.stick-item-content .infor img {
+	border-radius: 50%;
+}
+
+.stick-item-content .text {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.carousel-container .stick-list .stick-item-container:hover {
+	box-shadow: 0 0 1px 1px rgba(20,23,28,0.1), 0 2px 1px 0 rgba(20,23,28,0.1);
+}
+
+.carousel-container .stick-list {
+	position: initial;
+}
+
+.carousel-container .next-button {
+	top: 45%;
+	right: 3px;
+}
+
+.partners {
+	padding-bottom: 24px;
+}
+
+.partners .partners-header {
+	font-size: 13px;
+	padding-top: 16px;
+	text-align: center;
+}
+
+.partners .partners-logo-container .partners-logos {
+	display: flex;
+	justify-content: center;
+	padding-top: 32px;
+}
+
+.partners-logos .logo-item {
+	margin: 0 32px 8px 32px;
+}
+
+.non-student-container {
+	padding-bottom: 22px;
+	display: flex;
+	flex-direction: row;
+}
+
+.non-student-container .non-student {
+	padding: 28px 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+}
+
+.left {
+	border-bottom: none;
+	border-right: 1px solid #DEDFE0;
+}
+
+.non-student .non-student-content {
+	max-width: 320px;
+	text-align: center;
+}
+
+.non-student-content .header {
+	font-size: 19px;
+	font-weight: 600;
+	color: #505763;
+	padding-top: 5px;
+}
+
+.non-student-content .content {
+	font-size: 16px;
+	font-weight: 400;
+	padding-top: 5px;
+}
+
+.non-student-content .link {
+	padding-top: 5px;
+	text-align: center;
+	display: inline-flex;
+}
+
+.non-student-content .link a {
+	margin-top: 15px;
 }
