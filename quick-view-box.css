@@ -3,6 +3,7 @@
 	left: 32%;
 	top: -40%;
 	display: none;
+	z-index: 1;
 }
 
 .quick-view {
@@ -122,4 +123,8 @@
 
 .cur-item:hover ~ .quick-view-box {
 	display: flex;
+}
+
+.courses-discovery .quick-view-box {
+	left: 19%;
 }
