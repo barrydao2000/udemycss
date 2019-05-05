@@ -8,7 +8,8 @@
 
 .stick-list {
 	display: flex;
-	position: relative;
+	overflow: hidden;
+	padding: 1px;
 }
 
 .stick-list .stick-item {
@@ -169,6 +170,10 @@
 	color: #505763;
 }
 
+.courses-discovery .discovery-container {
+	width: 908px;
+}
+
 .courses-container .courses-discovery {
 	margin-bottom: 20px;
 }
@@ -176,4 +181,8 @@
 .stick-item-container .stick-item-content {
 	padding: 32px;
 	height: 266px;
+}
+
+.courses-discovery .next-button {
+	right: -10px;
 }

@@ -107,7 +107,11 @@ a {
 	height: 100%;
 }*/
 
-.header-right-button-dropdown > a{
+.component-header-right-dropdown-container .header-right-button-dropdown {
+	display: none;
+}
+
+.header-right-button-dropdown > a {
 	margin: 0 2px;
   height: 45px;
   padding: 12px 15px;
@@ -121,11 +125,11 @@ a {
 	font-size: 15px;
 }
 
-.shopping-cart .header-right-button-dropdown > a{
+.shopping-cart .header-right-button-dropdown > a {
 	width: 45px;
 }
 
-.component-button-login-signup > a{
+.component-button-login-signup > a {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;

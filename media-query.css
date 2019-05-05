@@ -1,0 +1,33 @@
+@media (min-width: 1280px) {
+	.component-header-right-dropdown-container .header-right-button-dropdown {
+		display: flex;
+	}
+
+	.new-channel .how-udemy-work-content {
+		width: 1174px;
+	}
+
+	.new-channel .courses-wrapper {
+		width: 1170px;
+	}
+
+	.skills-hub .description-container {
+		width: 447px;
+	}
+
+	.courses-discovery .discovery-container {
+		width: 1140px;
+	}
+
+	.new-channel .top-categories-container {
+		width: 1170px;
+	}
+
+	.top-categories-component-container .cat-component-item {
+		width: 25%;
+	}
+
+	.container-grey .testimonial-wrapper {
+		width: 1170px;
+	}
+}

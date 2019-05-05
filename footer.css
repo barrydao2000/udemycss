@@ -55,26 +55,28 @@ li a {
 }
 
 .languages {
-	display: flex;
 	margin-top: 30px;
-	display: flex;
-	align-items: center;
+	font-size: 13px;
+}
+
+.languages div {
+	color: #A1A7B3;
+	font-weight: bold;
 }
 
 .languages span {
 	color: #A1A7B3;
-	font-size: 13px;
 	font-weight: bold;
 }
 
 .languages ul {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .languages ul li {
 	padding-left: 5px;
 	padding-right: 5px;
-	font-size: 13px;
 }
 
 .fuild-bot	{
@@ -92,10 +94,15 @@ li a {
 }
 
 .row .row-left {
-	width: 75%;
+	width: 50%;
 	display: flex;
 	color: #686F7A;
 	font-size: 13px;
+}
+
+.row-left .copyright {
+	padding-top: 10px;
+	text-align: center;
 }
 
 .row .row-left .logo {
@@ -103,7 +110,7 @@ li a {
 }
 
 .row .row-right {
-	width: 25%;
+	width: 50%;
 }
 
 .row .row-right .links {
