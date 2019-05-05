@@ -279,6 +279,7 @@
 
 .stick-item-content .infor img {
 	border-radius: 50%;
+	background-color: rgb(104, 111, 122);
 }
 
 .stick-item-content .text {
@@ -323,6 +324,7 @@
 	padding-bottom: 22px;
 	display: flex;
 	flex-direction: row;
+	border-bottom: 1px solid #E8E9EB;
 }
 
 .non-student-container .non-student {

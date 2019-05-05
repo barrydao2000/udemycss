@@ -21,12 +21,14 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
 }
 
 .c-header-left .drop-down-container a{
 	height: 45px;
 	padding: 12px 15px;
 	border: 1px solid transparent;
+	white-space: nowrap;
 }
 
 .c-header-left .search-wrap .input-group {
@@ -40,8 +42,9 @@
 	justify-content: center;
 	align-items: center;
 	height: 44px;
-	width: 500px;
+	width: 100%;
 	margin: 0 25px;
+	width: 100%;
 }
 
 .search-wrap .search-bar {
@@ -50,7 +53,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
+	width: 100%;
 }
 
 .search-bar .input-group {
@@ -58,15 +61,15 @@
 	background-color: #F2F3F5;
 	border: 1px solid transparent;
   border-radius: 3px;
+  width: 100%;
 }
 
 input {
 	border: none;
 	padding: 10px 12px;
 	background-color: transparent;
-	width: 456px;
 	outline: none;
-	
+	width: 100%;
 }
 
 .input-group .button-search {
@@ -110,6 +113,7 @@ a {
   padding: 12px 15px;
   border: 1px solid transparent;
   border-radius: 3px;
+  white-space: nowrap;
 }
 
 .shopping-cart {
@@ -132,15 +136,15 @@ a {
   font-weight: 600;
   border-radius: 3px;
   font-size: 15px;
+  white-space: nowrap;
 }
 
-.login > a{
-	color: #686F7A;
+.login > a {
 	color: #686F7A;
   border: 1px solid #686F7A;
 }
 
-.signup > a{
+.signup > a {
 	background-color: #EC5252;
   border: 1px solid transparent;
   color: #FFF;
